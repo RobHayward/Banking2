@@ -1,0 +1,32 @@
+\documentclass[12pt, a4paper, oneside]{hitec} % Paper size, default font size and one-sided paper
+%\graphicspath{{./Figures/}} % Specifies the directory where pictures are stored
+%\usepackage[dcucite]{harvard}
+\usepackage{rotating}
+\usepackage{amsmath}
+\usepackage{setspace}
+\usepackage{pdflscape}
+\usepackage[flushleft]{threeparttable}
+\usepackage{multirow}
+\usepackage[comma, sort&compress]{natbib}% Use the natbib reference package - read up on this to edit the reference style; if you want text (e.g. Smith et al., 2012) for the in-text references (instead of numbers), remove 'numbers' 
+\usepackage{graphicx}
+%\bibliographystyle{plainnat}
+\bibliographystyle{agsm}
+\usepackage[colorlinks = true, citecolor = blue, linkcolor = blue]{hyperref}
+%\hypersetup{urlcolor=blue, colorlinks=true} % Colors hyperlinks in blue - change to black if annoying
+%\renewcommand[\harvardurl]{URL: \url}
+ \usepackage{listings}
+ \usepackage{color}
+\definecolor{mygrey}{gray}{0.95}
+\lstset{backgroundcolor=\color{mygrey}}
+\title{Diamond Dybig Model}
+\begin{document}
+\maketitle
+\section{Introduction}
+This is a three period model where decisions are made in period 0 to run for periods 1 and 2. Technology requires two periods to be productive. There are two types of consumer: those who consume in period 1 and those who consume at the end of period 2. Early consumption is a cost in terms of lower output and consumption in period 2.  A banking system will pool resources to allow large payments to be made to consumers in period 1 and lower payments to be paid to those in period 2. The financial intermediary acts as an insurance agent. The existance of uncertainty provides rationale for teh model. The role of the bank does depend on it having a cost advantage.  Without this advantage, consumers would just create their own bilateral contracts. 
+
+\href{DD model}{https://minneapolisfed.org/research/qr/qr2412.pdf}
+ 
+\href{Some criticisms}{http://coppolacomment.blogspot.co.uk/2015/04/rediscovering-old-economic-models.html}
+
+
+\end{document}

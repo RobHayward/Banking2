@@ -1,0 +1,35 @@
+\documentclass[12pt, a4paper, oneside]{hitec} % Paper size, default font size and one-sided paper
+%\graphicspath{{./Figures/}} % Specifies the directory where pictures are stored
+%\usepackage[dcucite]{harvard}
+\usepackage{rotating}
+\usepackage{amsmath}
+\usepackage{setspace}
+\usepackage{pdflscape}
+\usepackage[flushleft]{threeparttable}
+\usepackage{multirow}
+\usepackage[comma, sort&compress]{natbib}% Use the natbib reference package - read up on this to edit the reference style; if you want text (e.g. Smith et al., 2012) for the in-text references (instead of numbers), remove 'numbers' 
+\usepackage{graphicx}
+%\bibliographystyle{plainnat}
+\bibliographystyle{agsm}
+\usepackage[colorlinks = true, citecolor = blue, linkcolor = blue]{hyperref}
+%\hypersetup{urlcolor=blue, colorlinks=true} % Colors hyperlinks in blue - change to black if annoying
+%\renewcommand[\harvardurl]{URL: \url}
+ \usepackage{listings}
+ \usepackage{color}
+\definecolor{mygrey}{gray}{0.95}
+\lstset{backgroundcolor=\color{mygrey}}
+\title{AIG case study}
+\begin{document}
+\maketitle
+\section{Introduction}
+This is a case study of American International Group (AIG). 
+
+\href{AIG}{https://ideas.repec.org/p/fip/fedhwp/wp-2014-07.html} provides an overview of the case. This needs to be build up with a number of sources and an explanation of the CDS and CDO markets. 
+
+The near collapse was September 16 2008. A company with nearly \$1.0tn assets lost \$99.3bn  in 2008.  The group was rescued with a series of loans, equity injections and the creation of special purose vehicles (SPVs). AIG Financial Products wrote Credit Default Swaps (CDS) on over \$500bn of assets including \$78bn CDO. AIG also bought residuential-mortgaged-backed securities (RMBS) and CDOs financed by securities lending.  On September 16 2008, losses on these two activities were in the region of  \$50bn.  
+
+One of the main issues is wether the problems were the result of illiquidity or insolvency:  illiquidity tends to mean that assets cannot be sold for a fair price; insolvency means that the fair value of the assets is less than that of the liabilities. Head of AIGFP Joseph Cassano referred to CDOs insured by AIGFOP as ``money good''. 
+
+There are links to a number of documents such as the submission at the end of 2007 expressing confidence in the company's position. 
+
+\end{document}

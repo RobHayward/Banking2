@@ -1,0 +1,55 @@
+  \documentclass[12pt, a4paper, oneside]{hitec} % Paper size, default font size and one-sided paper
+%\graphicspath{{./Figures/}} % Specifies the directory where pictures are stored
+%\usepackage[dcucite]{harvard}
+\usepackage{rotating}
+\usepackage{amsmath}
+\usepackage{setspace}
+\usepackage{pdflscape}
+\usepackage[flushleft]{threeparttable}
+\usepackage{multirow}
+\usepackage[comma, sort&compress]{natbib}% Use the natbib reference package - read up on this to edit the reference style; if you want text (e.g. Smith et al., 2012) for the in-text references (instead of numbers), remove 'numbers' 
+\usepackage{graphicx}
+%\bibliographystyle{plainnat}
+\bibliographystyle{agsm}
+\usepackage[colorlinks = true, citecolor = blue, linkcolor = blue]{hyperref}
+%\hypersetup{urlcolor=blue, colorlinks=true} % Colors hyperlinks in blue - change to black if annoying
+%\renewcommand[\harvardurl]{URL: \url}
+ \usepackage{listings}
+ \usepackage{color}
+\definecolor{mygrey}{gray}{0.95}
+\lstset{backgroundcolor=\color{mygrey}}
+\title{Financial Institutions}
+\begin{document}
+\maketitle
+\section{Introduction}
+This is an overview of financial institutions. 
+
+\section{European Insurance}
+\href{http://www.ft.com/cms/s/0/0e1bcc90-e503-11e4-bb4b-00144feab7de.html#axzz3XsMpMwOP}{Europan Insurance}
+This provides an overview of the problems facing European life insurance  companies. The main focus is Germany but this is a problem that spans a number of European countries.  The main problem is that the rates of return that have been guaranteed by the insurers are too low for the current rates of return.  Though these guarantees have been falling, the outstanding promises stand to bankrupt a number of interconnected firms. 
+
+There is a warning from the IMF in the spring 2015 World Economic Outlook. 
+
+\section{Pension funds}
+There is a story on the \href{New York Times}{http://www.newyorker.com/business/currency/is-wall-street-really-robbing-new-york-citys-pension-funds?mbid=social_twitter} about the New York City pension funds. There is \$160bn under management.  This is equivalent to the 12th largest pension sovereign wealth fund in the world.  There has been a payment of \$2bn in fees over the last 10 years. There is a note of the analysis in the Other folder. In the NYT article there is a reference to a study by the Maryland Putlic Policy Institute. that records an even worse performance. 
+
+The writer notes that large pension funds should be looking for a deal that is better than the 20bp that is the average charge. It is stated here that the average is closer to 70bp to 80bp.  This is much more than the 5bp charged to an index fund.  For large equity pools, the charge should be 20bp to 25bp. 
+
+The trustees should be reporting the performance net of fees.  One alternative is to pay 5bp (\$500m on this fund). If they could have negotiated 15bp fees (\$1.5bn fees for\$2.0bn  outperformance and a net $500mn).  It seems to make more sense to hire your own fund manager. Payment of management for sovereign wealth funds is also expensive. is it possible for public employees to earn that much.  
+\section{Fund Management}
+This from \href{FT Lex}{http://www.ft.com/cms/s/3/17fbe626-e929-11e4-a71a-00144feab7de.html}.  Rise of exchange traded funds (ETF) has caused \emph{disruption} to the fund management business.  This sort of disruption happens when incumbents are overcharging or underproviding.  ETGFI estimate that there are 5669 ETF funds holding \$2.9tn in assets.  Mutual funds held \$31tn at the end of 2014. There was a \$96bn inflow to ETF in the first quarter of 2015 (2.5 times above the 2014 figure). 
+
+Traditional fund managers are launching their own managed ETF-type funds. For example Motif create baskets of up to 30 stocks that fit investment themes (or motifs).  
+
+\section{Bond markets}
+The corporate bond deals are supposed to be reported within 15 minutes of the trasactions taking place.  However, market-makers are asking for a delay to encourage more liquidity. The rule is supposed to increase transparency.  However, there is concern that the rules will make it much more difficult to trade blocks of bonds. Rivals will quickly know when a large trade has taken place. US corportate bond trades are supposed to be reported to the Trade Reporting and COmpliance Engine (TRACE). 
+
+\href{http://www.ft.com/cms/s/0/2d047a80-ea99-11e4-8c7e-00144feab7de.html}{Institutionl Investors and bond liquidity}
+Fund managers hoard cash due to concerns about liquidity. There is interest in the position of custodians.  
+
+\section{Hedge Funds}
+\href{http://ftalphaville.ft.com/2015/04/27/2127850/youve-taken-our-bonds-so-well/}{FT On bond equivalent}.  JP Morgan argues that hedge funds are attractive, despite relatively poor returns, because they offer an alternative to bonds. The QE programme means that bonds are taken out of the market.  JP argue that the \$18.2bn inflow to hedge funds in Q1 2015 compared to \$3.6bn in Q4 2013 is partly because they are an alternative to bonds.  The search for alternative assets that a more similar to bonds that equities includes real estate, infrastructure and private debt. This is linked to the need to get alterantive investments for German insurance companies (infrastruture). 
+
+\section{Insurance}
+The growth of catestrophey bonds has caused changes in the reinsurnace market.  THe rise in the bond market has caused the development of cat bond funds.  \href{http://www.ft.com/cms/s/0/818eaa56-f180-11e4-98c5-00144feab7de.html}{FT article} assesses the risk that some of these products are packaging risk into bonds in a similar fashion to CDOs to create bundles of concentrated risk that will damage the industry. 
+\end{document}

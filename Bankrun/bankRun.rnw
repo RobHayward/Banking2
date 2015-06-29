@@ -1,0 +1,28 @@
+\documentclass[12pt, a4paper, oneside]{hitec} % Paper size, default font size and one-sided paper
+%\graphicspath{{./Figures/}} % Specifies the directory where pictures are stored
+%\usepackage[dcucite]{harvard}
+\usepackage{rotating}
+\usepackage{amsmath}
+\usepackage{setspace}
+\usepackage{pdflscape}
+\usepackage[flushleft]{threeparttable}
+\usepackage{multirow}
+\usepackage[comma, sort&compress]{natbib}% Use the natbib reference package - read up on this to edit the reference style; if you want text (e.g. Smith et al., 2012) for the in-text references (instead of numbers), remove 'numbers' 
+\usepackage{graphicx}
+%\bibliographystyle{plainnat}
+\bibliographystyle{agsm}
+\usepackage[colorlinks = true, citecolor = blue, linkcolor = blue]{hyperref}
+%\hypersetup{urlcolor=blue, colorlinks=true} % Colors hyperlinks in blue - change to black if annoying
+%\renewcommand[\harvardurl]{URL: \url}
+ \usepackage{listings}
+ \usepackage{color}
+\definecolor{mygrey}{gray}{0.95}
+\lstset{backgroundcolor=\color{mygrey}}
+\title{Bank run}
+\begin{document}
+\maketitle
+\section{Introduction}
+This comes from \href{http://worthwhile.typepad.com/worthwhile_canadian_initi/2015/06/bank-walks-and-options.html}{Bank run and  bank walk}
+If deposits and cash are close substitutes, there will be a switch between the two as the marginal utility of each changes.  There is a option to convert from deposits to currency.  This option makes the demand for deposits higher than it would otherwise be and the demand for cash lower than it would otherwise be.  Let $P(t)$ be the subjective probability that the option can be exercised tomorrow; $P(t) = 1$ when the bank is expected to be solvent; $P(t) = 0$ if the bank is expected to collapse. In a Diamond Dybvig model, $P(t)$ is endogenous and has two equilibria at $P(t) = 1$ and $P(t) = 0$. A bank run is when $P(t)$ flips from 1 to 0.  A lender-of-the-last-resort will ensure that the option remains open. Let $L(t)$ be the subjective probability that the central bank will act as a lender of the last resort.  $P(t)$ is dependent on $L(t)$.  We assume that $P(t)$ is an increasing function of $L(t)$.  Therefore, there is a bank walk if $L(t)$ falls slowly over time. 
+
+\end{document}
